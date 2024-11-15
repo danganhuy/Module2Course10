@@ -8,10 +8,10 @@ public class Exercise2 {
         linkedList.addFirst(12);
         linkedList.addFirst(4);
 
-        linkedList.printList();
+        System.out.println(linkedList);
 
         linkedList.add(4, 1666);
         System.out.println("List after adding some elements");
-        linkedList.printList();
+        System.out.println(linkedList);
     }
 }
